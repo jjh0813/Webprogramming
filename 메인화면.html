@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>메인화면</title>
+    <link rel="stylesheet" href="메인화면 스타일시트.CSS">
+</head>
+<body>
+    <div class = "title">영화추천</div>
+    <img class = "img1" src = "SF 사진.png" alt = "SF" onclick="click_menu1()">
+    <img class = "img2" src = "액션 사진.png" alt = "액션" onclick="click_menu2()">
+    <img class = "img3" src = "로맨스 사진.png" alt = "로맨스" onclick="click_menu3()">
+    <img class = "img4" src = "공포 사진.png" alt = "공포" onclick="click_menu4()">
+    <table class = "table" width = 100%>
+        <tr>
+            <td width = 24% height = auto><div class = "a">SF</div></td>
+            <td width = 24% height = auto><div class = "a">액션</div></td>
+            <td width = 24% height = auto><div class = "a">로맨스</div></td>
+            <td width = 24% height = auto><div class = "a">공포</div></td>
+        </tr>
+    </table>
+    <script>
+        function click_menu1() {
+            location.href = "SF 메인화면.html";
+        }
+        function click_menu2() {
+            location.href = "액션 메인화면.html";
+        }
+        function click_menu3() {
+            location.href = "로맨스 메인화면.html";
+        }
+        function click_menu4() {
+            location.href = "공포 메인화면.html";
+        }
+    </script>
+</body>

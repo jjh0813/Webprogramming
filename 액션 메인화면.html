@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SF</title>
+    <link rel="stylesheet" href="SF 메인화면 스타일시트.CSS">
+</head>
+<body>
+    <div class = "title">영화추천</div>
+    <table class="table" height=30pt width=100%>
+        <th class=a width=25%; height=30pt; onclick="click_menu1()">SF</th>
+        <th class=a width=25%; height=30pt onclick="click_menu2()">로맨스</th>
+        <th class=a width=25%; height=30pt onclick="click_menu3()">액션</th>
+        <th class=a width=25%; height=30pt onclick="click_menu4()">공포</th>
+    </table>
+    <table width = 100%>
+        <th width = 25%><img class = "img1" src = "미션임파서블로그네이션.jpg" alt = "SF" onclick="click1()"></th>
+        <th width = 25%><img class = "img1" src = "존윅.png" alt = "SF" onclick="click2()"></img></th>
+        <th width = 25%><img class = "img1" src = "존윅3 포스터.jpg" alt = "SF" onclick="click3()"></img></th>
+    <tr>
+        <td><div class = b>미션 임파서블</div></td>
+        <td><div class = b>존 윅</div></td>
+        <td><div class = b>존 윅3</div></td>
+    </tr>
+    </table>
+    <script>
+        function click_menu1() {
+            location.href = "SF 메인화면.html";
+        }
+        function click_menu2() {
+            location.href = "로맨스 메인화면.html";
+        }
+        function click_menu3() {
+            location.href = "액션 메인화면.html";
+        }
+        function click_menu4() {
+            location.href = "공포 메인화면.html";
+        }
+        function click1() {
+            location.href = "미션 임파서블.html";
+        }
+        function click2() {
+            location.href = "존 윅.html";
+        }
+        function click3() {
+            location.href = "존윅3.html";
+        }
+    </script>
+</body>
